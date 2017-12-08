@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background:  #FBFCFC;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Josefin Slab', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif; */
+}
+
+/* Navigation */
+nav{
+    width: 100%;
+    min-height: 85px;
+    position: relative;
+    top: 0;
+    /* box-shadow: 0 1.5px 4px 1px rgba(0,0,0,.18); */
+}
+.brand{
+    float: left;
+    line-height: 85px;
+    padding: 0  80px;
+    font-family: 'Open Sans', sans-serif;
+    color:  #6cdf58;
+}
+.brand-span{
+    color:   #2c3e50;
+}
+
+ul{
+    float: right;
+    padding-right: 30px;
+}
+.clearfix{
+    clear: both;
+}
+ul h1{
+    line-height: 85px;
+    display: block;
+    float: left;
+}
+ul li{
+    
+    list-style: none;
+    line-height: 85px;
+    display: inline-block;
+    float: left;
+}
+ul li a{
+    font-size: 16px;
+    display: block;
+    padding: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #2c3e50;
+}
+ul li a:hover{
+    color: #6cdf58;
+}
+nav .active{
+    color: #6cdf58;
+}
+
+/* Dropdown */
+
+nav ul li {
+    position: relative;
+}
+nav ul li ul {
+    display: block;
+    position: absolute;
+}
+nav ul li ul li a{
+    padding: 8px 12px; 
+}
+nav ul li ul li {
+    width: 180px; 
+}
+nav ul li ul li a:hover{
+    background: #f3f3f3; 
+}
+
+/* /- Navigation */
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.img-apple{
+    width: 200px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
